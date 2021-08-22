@@ -14,7 +14,7 @@
   <main>
     <div class="main-container">
       <div class="calc-container">
-        <div class="calc-input">          
+        <div id="input" class="calc-input">          
         </div>
         <div class="calc-buttons row g-0">
           <div class="btn btn-operator col-3" onclick="clearInput()">C</div>
@@ -37,8 +37,8 @@
           <div class="btn btn-number col-3" onclick="insertNum(3)">3</div>
           <div class="btn btn-operator equal col-3" onclick="equalTo()">=</div>
 
-          <div class="btn btn-num col-6" onclick="insertNum(0)">0</div>
-          <div class="btn btn-num dot col-6" onclick="insertNum('.')">.</div>
+          <div class="btn btn-number col-6" onclick="insertNum(0)">0</div>
+          <div class="btn btn-number dot col-6" onclick="insertNum('.')">.</div>
         </div>
       </div>
     </div>

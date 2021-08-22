@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+*{
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calc-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.calc-input{
+  width: 100%;
+  height: 50px;
+  background-color: royalblue;
+}
+.calc-buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
